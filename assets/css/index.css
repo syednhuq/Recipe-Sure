@@ -1,0 +1,68 @@
+.landing{
+	background-image: url(../images/food2.jpg);
+	background-repeat: none;
+	background-position: center;
+	height: 92vh;
+}
+
+body{
+	background-color: grey;
+}
+
+nav ul a{
+	color: black;
+}
+
+.recipe{
+	
+	text-align: center;
+	position: relative;
+	top: 25vh;
+
+}
+
+.search{
+	height: 15vh;
+}
+
+.sidenav li>a{
+	color: white;
+}
+
+.face{
+	width: 15%;
+	margin-left: 5%;
+	margin-top: 15%
+}
+
+.insta{
+	
+	width: 15%;
+	margin-left: 20%;
+	margin-top: 15%
+
+}
+
+.twit{
+
+	width: 20%;
+	margin-left: 20%;
+	margin-top: 15%
+
+}
+
+.signup{
+
+	border: 1px solid black;
+	width: 70%;
+	text-align: center;
+	margin-left: 15%;
+	margin-top: 20%;
+
+}
+
+span{
+	padding-right:10px;
+}
+
+

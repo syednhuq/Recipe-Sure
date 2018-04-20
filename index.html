@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe Finder</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="icon" href="assets/images/logo.png" type="image/gif" sizes="16x16">
+
+</head>
+<body>
+
+<!-- ----------------------navbar--------------------------- -->
+<div>
+  <nav class="#ffffff white" >
+    <div class="nav-wrapper">
+    	
+    <a class="brand-logo center" style="color: black;">RecipeSure</a>
+
+      <ul class="left " style="margin-left: 2%;">
+      	 <li><a href=""><i class="material-icons sidenav-trigger" data-target="slide-out">dehaze</i></a></li>
+      	<li style="color: black;"><a href="dehaze">Sign Up</a></li>
+      	<li><a href="dehaze">Log In</a></li>
+
+      </ul>
+    </div>
+  </nav>
+
+    <ul id="slide-out" class="sidenav" style="background-color: rgb(60, 60, 60); color: white;">
+    <li>
+    	<div class="user-view">
+    
+     <img style="width: 50%; height: 50%; margin-left: 26%;" class="circle" src="assets/images/logo.png">
+
+ 	</li>
+ 	
+ 	<ul style="margin-top: 20%; text-align: center; color: white;">
+
+    <li><a href="#!">Recipes & Diets</a></li>
+
+    <li><a href="#!">Articles</a></li>
+
+    <li><a href="#!">Ingredients</a></li>
+
+    <li><a href="#!">About Us</a></li>
+
+	</ul>
+
+	<img class="face" src="assets/images/face.png">
+	<img class="insta" src="assets/images/insta.png">
+	<img class="twit" src="assets/images/twitter.png">
+
+		<div class="signup center-align">
+
+		<a href=""><p style="margin-left: 5%;">Sign Up</a> <a href="">/Log In</a></p>
+		
+
+	</div>
+	
+
+   </ul>
+  </div>
+
+
+<!-- -------------------------------------------------------- -->
+
+
+	<div class="landing">	
+		<div>
+		
+			<h1 style="margin-top: 0px;" class="recipe">Find A Recipe 
+				<br>
+					<a href="" data-target="modal1"><img data-target="modal1" class="search modal-trigger" src="assets/images/input.png"></a>
+          
+			</h1>
+
+			
+
+		</div>
+	</div>
+
+	<!-- modal -->
+
+
+
+  <!-- Modal Structure -->
+
+  <div id="modal1" class="modal" style="text-align: center;">
+    <div class="modal-content">
+      <h4>Find A Recipe</h4>
+      <p>Allergies</p>
+      <hr>
+    </div>
+ 		
+
+ 		
+        
+	<div class="calories" style="margin-bottom: 5%;text-align: center">
+		<form>
+
+     <label> <input type="checkbox" value="dairy-free" id="checkboxes" /><span>Dairy</label>
+	<label> <input type="checkbox" value="gluten-free" id="checkboxes" /> <span>Gluten</span></label>
+	<label> <input type="checkbox" value="egg-free" id="checkboxes" /> <span>Eggs</span></label>
+	<label> <input type="checkbox" value="fish-free" id="checkboxes" /> <span>Fish</span></label>
+	<label> <input type="checkbox" value="shellfish-free" id="checkboxes" /> <span>ShellFish</span></label>
+	<label> <input type="checkbox" value="tree-nut-free" id="checkboxes" /> <span>TreeNuts</span></label>
+	<label> <input type="checkbox" value="peanut-free" id="checkboxes" /> <span>Peanuts</span></label>
+	<label> <input type="checkbox" value="soy-free" id="checkboxes" /> <span>Soy</span></label>
+	<label> <input type="checkbox" value="wheat-free" id="checkboxes" /> <span>Wheat</span></label>
+	
+		</div>
+	<hr>
+
+	<p>Diets</p>
+	
+	
+
+
+
+		<div class="checkbox-grid">
+
+		
+	
+	 <label> <input type="checkbox" class="balance" value="balanced" id="checkboxes" /> <span>Balanced</span></label>
+	<label> <input type="checkbox" class="dairy-free" value="dairy-free" id="checkboxes"/> <span>Dairy-Free</span></label>
+	<label> <input type="checkbox" class="gluten" value="gluten-free" id="checkboxes"/> <span>Gluten-Free</span></label>
+	<label> <input type="checkbox" class="fiber" value="high-fiber" id="checkboxes"/> <span>High-Fiber</span></label>
+	<label> <input type="checkbox" class="protein" value="high-protein" id="checkboxes"/> <span>High-Protein</span></label>
+	<label> <input type="checkbox" class="carb" value="low-carb" id="checkboxes"/> <span>Low-Carb</span></label>
+	<label> <input type="checkbox" class="fat" value="low-fat" id="checkboxes"/> <span>Low-Fat</span></label>
+	<label> <input type="checkbox" class="sodium" value="low-sodium" id="checkboxes"/> <span>Low-Sodium</span></label>
+	<label> <input type="checkbox" class="sugar" value="low-sugar" id="checkboxes"/> <span>Low-Sugar</span></label>
+	<label> <input type="checkbox" class="vegan" value="vegan" id="checkboxes"/> <span>Vegan</span></label>
+	<label> <input type="checkbox" class="sugar" value="vegetarian" id="checkboxes"/> <span>Vegetarian</span></label>
+
+
+     </div>
+ 
+
+
+
+    <div class="modal-footer">
+      <button type="Submit" class="btn1 btn waves-effect waves-light modal-action modal-close">Find!</button>
+    </div>
+  </div>
+  </form>
+          
+<!-- modal end -->
+
+
+
+
+
+
+
+
+
+ <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+
+   <script type="text/javascript" src="assets/js/index.js"></script>
+
+   <script type="text/javascript" src="assets/js/api.js"></script>
+          
+
+</body>
+</html>
